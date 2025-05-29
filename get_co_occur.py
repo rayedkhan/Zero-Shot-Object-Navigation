@@ -2,7 +2,7 @@ import openai
 import numpy as np
 
 print("here")
-openai.api_key = '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'
+openai.api_key = 'xxxxxxx'
 print("key verified")
 target_objects = [
     "gingerbread house",
