@@ -1,3 +1,10 @@
+## Project Description
+
+This implementation is a research prototype that combines cutting-edge Vision-Language Models (VLMs), Large Language Models (LLMs) and a Tree-of-Thoughts planner to enable zero-shot object navigation and interaction in the RoboTHOR simulator. It begins by building and refining real-time RGB-D semantic maps, then uses a frontier-based exploration strategy (guided by VLM outputs) to identify and prioritize unexplored regions. A deterministic policy module translates the VLM’s high-level reasoning into precise navigation and manipulation commands, while a natural-language interface allows users to issue free-form commands like “find the red mug in the kitchen” and have the robot execute them on unseen objects.
+
+Benchmarked on both simulated and real-world tasks, this project delivers high navigation accuracy, robust object-detection precision and reliable command-interpretation. Its zero-shot learning capability requires no object-specific training, and its two-stage mapping pipeline and dynamic updates ensure the robot maintains an accurate, up-to-date understanding of its environment.
+
+## Setup & Installation
 
 # Base Environment
 
