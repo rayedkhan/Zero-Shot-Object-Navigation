@@ -16,7 +16,7 @@ sample input:
 # goal_prompt = "Alarm Clock"
 
 # openai.api_key = 'YOUR-KEY-HERE'
-openai.api_key = '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'
+openai.api_key = 'xxxx'
 
 
 processor = ViltProcessor.from_pretrained("dandelin/vilt-b32-finetuned-vqa")
