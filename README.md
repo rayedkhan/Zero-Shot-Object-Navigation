@@ -31,7 +31,7 @@ python setup.py build develop --user
 mkdir MODEL
 wget https://huggingface.co/GLIPModel/GLIP/resolve/main/glip_large_model.pth
 ```
-...make sure to verify that the downloaded pth file is around 6.9GB
+...make sure to verify that the downloaded pth file is around 6.9GB.
 
 ## GPT-3.5 setup
 Visit the tree_of_thoughts.py and replace your openai key at line 17.
